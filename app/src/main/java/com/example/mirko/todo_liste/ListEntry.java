@@ -12,8 +12,8 @@ public class ListEntry {
     private String text;
 
 
-    public ListEntry(String id, String text) {
-        this.setId(id);
+    public ListEntry(String text) {
+        this();
         this.setText(text);
     }
 
